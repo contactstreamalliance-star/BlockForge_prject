@@ -1,0 +1,14 @@
+{
+  "seed": 712773,
+  "size": 72,
+  "maxHeight": 25,
+  "waterLevel": 9,
+  "seaBlock": "water",
+  "surfaceBlocks": {
+    "default": "grass",
+    "beach": "sand",
+    "underwater": "sand"
+  },
+  "treeChance": 0.035,
+  "oreChance": 0.018
+}

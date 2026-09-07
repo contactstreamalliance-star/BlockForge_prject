@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voxel Frontier Alpha</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.164.1/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.164.1/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main id="game">
+    <div id="overlay" class="overlay">
+      <section class="start-panel">
+        <p class="build">Pré-alpha publique 0.1.0</p>
+        <h1>Voxel Frontier Alpha</h1>
+        <p class="tagline">Survie voxel rétro, monde modifiable, textures originales, fichiers ouverts.</p>
+        <div class="menu-actions">
+          <button id="playButton" type="button">Jouer</button>
+          <button id="newWorldButton" type="button">Nouveau monde</button>
+          <button id="audioButton" type="button">Son: on</button>
+        </div>
+        <p class="smallprint">Solo local. Multijoueur prévu plus tard.</p>
+      </section>
+    </div>
+
+    <div class="hud">
+      <div id="crosshair" aria-hidden="true"></div>
+      <div id="status"></div>
+      <div id="debug"></div>
+      <div id="hotbar" class="hotbar"></div>
+    </div>
+
+    <noscript>JavaScript doit être activé pour jouer.</noscript>
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

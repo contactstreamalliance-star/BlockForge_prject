@@ -1,0 +1,19 @@
+{
+  "name": "voxel-frontier-alpha",
+  "version": "0.1.0",
+  "description": "Pré-alpha voxel rétro libre avec assets originaux et modding simple.",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check server.cjs && node --check src/main.js && node --check mods/example-mod.js"
+  },
+  "keywords": [
+    "voxel",
+    "sandbox",
+    "open-source",
+    "game",
+    "modding"
+  ]
+}

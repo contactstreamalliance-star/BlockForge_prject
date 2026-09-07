@@ -1,0 +1,14 @@
+{
+  "recipes": [
+    {
+      "id": "planks_from_log",
+      "input": { "log": 1 },
+      "output": { "planks": 4 }
+    },
+    {
+      "id": "cobble_from_stone",
+      "input": { "stone": 1 },
+      "output": { "cobble": 1 }
+    }
+  ]
+}
