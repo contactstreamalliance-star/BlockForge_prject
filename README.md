@@ -1,23 +1,10 @@
-[README.md](https://github.com/user-attachments/files/31899229/README.md)
-# Voxel Frontier Alpha Desktop
 
-Voxel Frontier Alpha Desktop est la version Godot native de la pré-alpha. Elle ne tourne pas dans un navigateur, ne dépend pas d'un CDN, et garde tous ses fichiers en clair pour GitHub.
+# BlockForge_prject Alpha Desktop
+
+BlockForge_prject Alpha Desktop est la version Godot native de la pré-alpha. Elle ne tourne pas dans un navigateur, ne dépend pas d'un CDN, et garde tous ses fichiers en clair pour GitHub.
 
 Ce projet est indépendant de Minecraft. Il ne reprend aucun fichier, code, texture, son, nom, logo ou asset Minecraft.
 
-## Lancer avec Godot
-
-Ouvre ce dossier dans Godot :
-
-```text
-outputs/voxel-frontier-desktop
-```
-
-ou lance directement :
-
-```powershell
-& "C:\Users\Utilisateur\Downloads\Godot_v4.7.2-stable_win64.exe\Godot_v4.7.2-stable_win64_console.exe" --path "C:\Users\Utilisateur\Documents\Codex\2026-09-06\serais-tu-capable-de-me-refaire\outputs\voxel-frontier-desktop"
-```
 
 ## Contrôles
 
